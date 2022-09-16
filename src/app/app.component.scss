@@ -1,0 +1,26 @@
+.header{
+    color: aqua;
+    background-color: orange;
+    text-align: center;
+}
+.content{
+    display: flex;
+    color: chartreuse;
+    background-color: rgb(162, 20, 124);
+    margin-top: 30px;
+    .mainarea{
+        width: 60%;
+    }
+    .sidebar{
+        width: 10%;
+    }
+}
+.footer{
+    display: flex;
+    color: crimson;
+    background-color: green;
+    text-align: center;
+    padding-left: 547px;
+    margin-top: 30px;
+    
+}
