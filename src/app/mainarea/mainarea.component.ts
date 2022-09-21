@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mainarea.component.scss']
 })
 export class MainareaComponent implements OnInit {
-  abc:any="dhoni"
+  // abc:any="dhoni"
   constructor() { }
 
   ngOnInit(): void {

@@ -8,6 +8,11 @@ import { MainareaComponent } from './mainarea/mainarea.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { LinesComponent } from './lines/lines.component';
+import { FormsModule } from '@angular/forms';
+import { ChildComponent } from './child/child.component';
+import { ParentComponent } from './parent/parent.component';
+import { UserlistComponent } from './userlist/userlist.component';
+import { UserdetailComponent } from './userdetail/userdetail.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +21,16 @@ import { LinesComponent } from './lines/lines.component';
     MainareaComponent,
     SidebarComponent,
     FooterComponent,
-    LinesComponent
+    LinesComponent,
+    ChildComponent,
+    ParentComponent,
+    UserlistComponent,
+    UserdetailComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

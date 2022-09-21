@@ -1,0 +1,7 @@
+
+
+<h3>Users List</h3>
+
+<ng-container *ngFor="let user of userlist,index as i">
+    <app-userdetail [userDetail]="user" [userIndex]="i" (removeUserEvent)="removeUser($event)"></app-userdetail>
+</ng-container>

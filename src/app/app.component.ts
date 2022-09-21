@@ -1,3 +1,4 @@
+import { emitDistinctChangesOnlyDefaultValue } from '@angular/compiler';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,9 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angularApp';
-}
+  newArray:any=[]
+  title = 'angularApp'
 
+  emit(event:any){
+    this.newArray.push(event)
+    console.log(this.newArray);
+  }
+
+}
 
 
 
